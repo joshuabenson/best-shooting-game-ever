@@ -1,0 +1,17 @@
+{
+  "name": "wix-header-hack",
+  "version": "0.0.1",
+  "description": "Remove Wix Header",
+  "repository": "",
+  "license": "Proprietary",
+  "dependencies": {
+    "express": "^4.0.0",
+    "nodemon": "^1.2.1",
+    "serve-index": "^1.9.1"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">= 6.9.1",
+    "npm": ">= 4.0.0"
+  }
+}

@@ -100,6 +100,8 @@ function startGame() {
 	// Kick off the enemy spawn interval
   
   // **#1 change code here**
+
+  // this setInterval is running when tab shifts away, but canvas draw is not running creating a long line of enemies
   timeoutId = setInterval(makeEnemy, timeBetweenEnemies);
   // Kick off the draw loop
   draw();
