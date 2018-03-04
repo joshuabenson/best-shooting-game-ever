@@ -40,7 +40,6 @@ var enemies = [];
 // Add an enemy object to the array
 var enemyBaseSpeed = 2;
 
-// **#1 - Change code here**
 function makeEnemy() {
 	enemyTypeIncrement++;
 
@@ -163,7 +162,7 @@ function shoot() {
     bullet2.x = ship.x + ship.l;
     bullet2.y = ship.y + ship.l;
     bullet3.x = ship.x + ship.l;
-    bullet3.y = ship.y + ship.l * 2;
+    bullet3.y = ship.y + ship.l * 1.5;
     bullets.push(bullet);
     bullets.push(bullet2);
     bullets.push(bullet3);
